@@ -1,3 +1,5 @@
+import Artyom from 'artyom.js';
+
 /**
  * コンストラクタ
  * @param {Window} window
@@ -20,6 +22,7 @@ Klass.prototype._template = `
 Klass.prototype.execute = function(){
   const self = this;
   let counter = 0;
+  const artyom = new Artyom();
   const timer = setInterval(() => {
     if (self._wordDictionary.length == counter) clearInterval(timer);
     const node = this._document.createElement('div');
@@ -32,6 +35,7 @@ Klass.prototype.execute = function(){
     });
     self._rootNode.appendChild(node);
     const beforeNode = this._rootNode.querySelector(`.container[data-container-id='${( counter - 1)}']`);
+    artyom.say(self._wordDictionary[counter].en.word);
     if (beforeNode) beforeNode.parentNode.removeChild(beforeNode);
     counter++;
   }, 2000);
