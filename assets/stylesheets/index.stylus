@@ -1,0 +1,94 @@
+/**
+ * global tag setting
+**/
+body
+  font-family: -apple-system, BlinkMacSystemFont, Tahoma, YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif
+  color:  #2D2D2D
+li
+  list-style: none
+/**
+ * global tag end
+**/
+
+/**
+ * navigation menu
+**/
+nav.global-menu
+  background-color: #222222
+  color: white
+  ul
+    display: flex
+    flex-flow: row
+    justify-content: flex-end
+    margin: 0
+    padding: 6px
+    list-style-type: none
+  a
+    font-size: 2em
+    display: block;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+  li
+    margin: 0.3em
+    a:hover
+      background-color: #8cae47;
+/**
+ * navigation menu end
+**/
+
+.container
+  position: absolute
+  width: 100%
+  margin: 0 auto
+
+.dict-word
+  width: 100%
+  text-align: center
+  display: inline-block
+
+.word
+  margin: 0 auto
+  font-size: 8em
+
+.dest-word
+  font-size: 3em
+  margin-bottom: 2em
+
+.dict-dest
+  width: 100%
+  text-align: center
+  display: inline-block
+
+.kvblock-key
+  display: inline-block
+  vertical-align: middle
+  text-align: left
+  font-weight: bold
+
+.kvblock-value
+  display: inline-block
+  vertical-align: middle
+  width: 50%
+  margin-left: 1em
+
+.part-of-speech .kvblock-key
+  font-size: 2.1em
+  font-style: italic
+
+.part-of-speech .kvblock-value
+  font-size: 2.1em
+
+.part-of-speech h3
+  margin: 0
+
+.ex-text .kvblock-key
+  font-size: 2.1em
+  font-style: italic
+
+.ex-text .kvblock-value
+  font-size: 2.1em
+
+.ex-text h3
+  margin: 0

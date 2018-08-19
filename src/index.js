@@ -7,7 +7,7 @@ import Artyom from 'artyom.js';
 const Klass = function(window) {
   this._window = window;
   this._document = this._window.document;
-  this._rootNode = this._window.document.querySelector('body');
+  this._rootNode = this._window.document.querySelector('main');
   this._wordDictionary = require('../data/words.json');
 };
 
@@ -36,7 +36,10 @@ Klass.prototype.execute = function(){
     });
     self._rootNode.appendChild(node);
     const beforeNode = this._rootNode.querySelector(`.container[data-container-id='${( counter - 1)}']`);
-    artyom.say(self._wordDictionary[counter].en.word);
+
+    //読み上げをする
+    // artyom.say(self._wordDictionary[counter].en.word);
+
     if (beforeNode) beforeNode.parentNode.removeChild(beforeNode);
     counter++;
   }, 2000);

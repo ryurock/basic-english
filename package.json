@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "webpack:watch": "webpack --watch"
+    "webpack:watch": "webpack --watch",
+    "dev:watch": "webpack --watch & stylus assets/stylesheets/index.stylus --out dest/css/ --compress --watch"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "pryjs": "^1.0.3",
+    "stylus": "^0.54.5",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
   },

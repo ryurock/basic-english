@@ -1,6 +1,38 @@
 [
   {
     "en": {
+      "word": "even",
+      "sort": "e"
+    },
+    "ja": [
+      {
+        "words": [
+          "均等な",
+          "同じの"
+        ],
+        "wordClass": [
+          "形容詞"
+        ],
+        "enEx": [
+          "an even chance"
+        ]
+      },
+      {
+        "words": [
+          " 〇〇だって",
+          " 〇〇でも（強調）"
+        ],
+        "wordClass": [
+          "副詞"
+        ],
+        "enEx": [
+          "Even I can do it"
+        ]
+      }
+    ]
+  },
+  {
+    "en": {
       "word": "current",
       "sort": "c"
     },
@@ -3928,38 +3960,6 @@
           "名詞"
         ],
         "enEx": []
-      }
-    ]
-  },
-  {
-    "en": {
-      "word": "even",
-      "sort": "e"
-    },
-    "ja": [
-      {
-        "words": [
-          "均等な",
-          "同じの"
-        ],
-        "wordClass": [
-          "形容詞"
-        ],
-        "enEx": [
-          "an even chance"
-        ]
-      },
-      {
-        "words": [
-          " 〇〇だって",
-          " 〇〇でも（強調）"
-        ],
-        "wordClass": [
-          "副詞"
-        ],
-        "enEx": [
-          "Even I can do it"
-        ]
       }
     ]
   },
