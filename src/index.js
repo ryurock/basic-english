@@ -9,8 +9,8 @@ const Klass = function(window) {
   this._document = this._window.document;
   this._rootNode = this._window.document.querySelector('body');
   this._wordDictionary = require('../data/words.json');
-
 };
+
 Klass.prototype._template = `
   <div class="dict-word">
     <h1 class="word"></h1>
@@ -19,6 +19,7 @@ Klass.prototype._template = `
     <h2 class="dest-word"></h2>
   </div>
 `;
+
 Klass.prototype.execute = function(){
   const self = this;
   let counter = 0;

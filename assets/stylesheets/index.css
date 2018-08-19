@@ -23,6 +23,7 @@ li {
 }
 .dest-word {
   font-size: 3em;
+  margin-bottom: 2em;
 }
 
 .dict-dest {
@@ -33,16 +34,19 @@ li {
 
 .kvblock-key {
   display: inline-block;
+  vertical-align: middle;
   text-align: left;
   font-weight: bold;
 }
 .kvblock-value {
   display: inline-block;
+  vertical-align: middle;
   width: 50%;
+  margin-left: 1em;
 }
 
 .part-of-speech .kvblock-key {
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-style: italic;
 }
 
@@ -50,8 +54,12 @@ li {
   font-size: 2.5em;
 }
 
+.part-of-speech h3 {
+  margin: 0;
+}
+
 .ex-text .kvblock-key {
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-style: italic;
 }
 

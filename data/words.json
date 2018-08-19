@@ -1,6 +1,35 @@
 [
   {
     "en": {
+      "word": "current",
+      "sort": "c"
+    },
+    "ja": [
+      {
+        "words": [
+          "流れ",
+          "水流",
+          "電流"
+        ],
+        "wordClass": [
+          "名詞"
+        ],
+        "enEx": []
+      },
+      {
+        "words": [
+          "現在の",
+          "流行の"
+        ],
+        "wordClass": [
+          "形容詞"
+        ],
+        "enEx": []
+      }
+    ]
+  },
+  {
+    "en": {
       "word": "attack",
       "sort": "a"
     },
@@ -2006,35 +2035,6 @@
         ],
         "wordClass": [
           "動詞"
-        ],
-        "enEx": []
-      }
-    ]
-  },
-  {
-    "en": {
-      "word": "current",
-      "sort": "c"
-    },
-    "ja": [
-      {
-        "words": [
-          "流れ",
-          "水流",
-          "電流"
-        ],
-        "wordClass": [
-          "名詞"
-        ],
-        "enEx": []
-      },
-      {
-        "words": [
-          "現在の",
-          "流行の"
-        ],
-        "wordClass": [
-          "形容詞"
         ],
         "enEx": []
       }
