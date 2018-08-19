@@ -39,7 +39,6 @@ nav.global-menu
 **/
 
 .container
-  position: absolute
   width: 100%
   margin: 0 auto
 
@@ -63,28 +62,27 @@ nav.global-menu
 
 .kvblock-key
   display: inline-block
+  font-size: 2.1em
   vertical-align: middle
   text-align: left
   font-weight: bold
 
 .kvblock-value
   display: inline-block
+  font-size: 2.1em
   vertical-align: middle
   width: 50%
   margin-left: 1em
 
 .part-of-speech .kvblock-key
-  font-size: 2.1em
   font-style: italic
 
 .part-of-speech .kvblock-value
-  font-size: 2.1em
 
 .part-of-speech h3
   margin: 0
 
 .ex-text .kvblock-key
-  font-size: 2.1em
   font-style: italic
 
 .ex-text .kvblock-value
@@ -92,3 +90,57 @@ nav.global-menu
 
 .ex-text h3
   margin: 0
+
+.player-menu
+  position: absolute
+  bottom: 6em
+  width: 100%
+  background-color: #222
+  color: #fff
+  ul
+    display: flex
+    flex-flow: row
+    justify-content: space-around
+    margin: 0
+    padding: 6px
+    list-style-type: none
+  a
+    font-size: 2em
+    display: block;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+  li
+    margin: 0.3em
+    a:hover
+      background-color: #8cae47;
+
+
+/**
+ * global-footer
+**/
+footer.global-footer
+  position: absolute
+  bottom: 0
+  width: 100%
+  border-top: 1em solid cadetblue;
+  ul
+    display: flex
+    flex-flow: row
+    justify-content: flex-end
+    margin: 0
+    padding: 6px
+    list-style-type: none
+  a
+    font-size: 2em
+    font-weight: bold
+    display: block;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: cadetblue;
+    text-decoration: none;
+  li
+    margin: 0.3em
+    a:hover
+      background-color: #8cae47;

@@ -24,7 +24,7 @@ Klass.prototype.execute = function(){
   const self = this;
   let counter = 0;
   const artyom = new Artyom();
-  const timer = setInterval(() => {
+  // const timer = setInterval(() => {
     if (self._wordDictionary.length == counter) clearInterval(timer);
     const node = this._document.createElement('div');
     node.classList.add('container');
@@ -38,11 +38,11 @@ Klass.prototype.execute = function(){
     const beforeNode = this._rootNode.querySelector(`.container[data-container-id='${( counter - 1)}']`);
 
     //読み上げをする
-    // artyom.say(self._wordDictionary[counter].en.word);
+    artyom.say(self._wordDictionary[counter].en.word);
 
     if (beforeNode) beforeNode.parentNode.removeChild(beforeNode);
     counter++;
-  }, 2000);
+  // }, 2000);
 };
 
 Klass.prototype._createDestWordElement = function(parentNode, dict){
